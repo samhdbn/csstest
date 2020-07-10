@@ -1,0 +1,190 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+
+  nav ul {
+    position: sticky;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+
+body {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+  @font-face {
+    font-family: Minion;
+    src: url(minion.ttf)
+  }
+
+  @font-face {
+    font-family: Grotesk;
+    src: url(grotesk.ttf)
+  }
+
+  header h1 {
+    font-family: Grotesk;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  section h2 {
+    font-family: Grotesk;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  section p {
+    font-size: 18px;
+    font-family: Minion;
+    letter-spacing: 0.15px;
+  }
+
+  section a {
+    text-decoration: underline;
+    color: #a66;
+  }
+
+  section a:hover {
+    text-decoration: none;
+    color: #ba7f7e;
+  }
+
+  section a:focus {
+    color: #8c5555;
+  }
+
+  .p-indent {
+    text-indent: 20px;
+  }
+
+  section ul li {
+    font-family: Minion;
+    list-style-type: square;
+    font-size: 18px;
+  }
+
+  section ol li {
+    font-family: Minion;
+    font-size: 18px;
+  }
+
+  aside h2 {
+    font-family: Grotesk;
+  }
+
+  aside ul {
+    font-family: Minion;
+    list-style: none;
+  }
+
+  aside ul li a {
+    text-decoration: none;
+    color: #6e4444;
+  }
+
+  aside ul a:hover {
+    text-decoration: underline;
+    color: #ba7f7e;
+  }
+
+  aside ul a:focus {
+    color: #8c5555;
+  }
+
+  aside li {
+    line-height: 50px;
+  }
+
+  aside p {
+    font-family: Minion;
+  }
+
+  aside p a {
+    text-decoration: none;
+    color: #6e4444;
+  }
+
+  aside p a:hover {
+    text-decoration: underline;
+    color: #ba7f7e;
+  }
+
+  aside p a:focus {
+    color: #8c5555;
+  }
+
+  nav ul {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  nav li {
+    border-color: #bb7575;
+    border-style: solid;
+    color: #bb7575;
+    padding: 20px;
+    margin: 20px;
+    font-family: Grotesk;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #bb7575;
+  }
+
+  nav li a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    text-align: center;
+    font-family: Grotesk;
+    font-size: 15px;
+  }
